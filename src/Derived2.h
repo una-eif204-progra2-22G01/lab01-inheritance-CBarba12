@@ -10,7 +10,7 @@
 class Derived2: public Base {
 
 public:
-     void do_semothing() override;
+     void do_something() override;
 
 };
 

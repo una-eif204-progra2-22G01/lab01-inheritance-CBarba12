@@ -18,7 +18,7 @@ public:
 
     Base();
 
-    virtual void do_semothing();
+    virtual void do_something();
 
 };
 

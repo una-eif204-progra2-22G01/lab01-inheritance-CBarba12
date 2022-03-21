@@ -4,7 +4,7 @@
 
 #include "Derived2.h"
 
-void Derived2::do_semothing() {
+void Derived2::do_something() {
 
     std::cout << "Derived2!!!" << std::endl;
 

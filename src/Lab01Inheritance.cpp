@@ -8,9 +8,9 @@ int main(int argc, const char *argv[]) {
     std::cout << "Welcome to the UNA!" << std::endl;
 
     Derived1 derived1;
-    derived1.do_semothing();
+    derived1.do_something();
 
     Derived2 derived2;
-    derived2.do_semothing();
+    derived2.do_something();
 
 }  // end function main
