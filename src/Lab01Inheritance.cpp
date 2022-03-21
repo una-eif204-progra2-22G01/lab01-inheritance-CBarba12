@@ -1,20 +1,7 @@
 #include <iostream>  // allows program to output data to the screen
+#include "Derived1.h"
+#include "Derived2.h"
 
-struct Base {
-    virtual void do_something() {}
-};
-
-struct Derived1 : Base {
-    virtual void do_semothing() {
-        std::cout << "Derived1!!!" << std::endl;
-    }
-};
-
-struct Derived2 : Base {
-    virtual void do_semothing() {
-        std::cout << "Derived2!!!" << std::endl;
-    }
-};
 
 // function main begins program execution
 int main(int argc, const char *argv[]) {
