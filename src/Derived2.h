@@ -4,14 +4,14 @@
 
 #ifndef LAB01_INHERITANCE_DERIVED2_H
 #define LAB01_INHERITANCE_DERIVED2_H
-
 #include "Base.h"
 
-class Derived2 :public Base{
+
+class Derived2: public Base {
 
 public:
+     void do_semothing() override;
 
-    virtual void do_semothing() ;
 };
 
 

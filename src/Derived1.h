@@ -7,11 +7,12 @@
 
 #include "Base.h"
 
-class Derived1: public  Base{
+class Derived1 :public Base{
 
 public:
+    void do_semothing() override;
 
-    virtual void do_semothing();
+
 };
 
 

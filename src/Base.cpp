@@ -4,7 +4,8 @@
 
 #include "Base.h"
 
-void Base::do_something() {
+void Base::do_semothing() {
 
+
+    cout << "Derived1!!!" << endl;
 }
-

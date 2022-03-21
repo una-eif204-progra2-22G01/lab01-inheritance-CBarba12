@@ -6,6 +6,6 @@
 
 void Derived2::do_semothing() {
 
-    cout << "Derived2!!!" << endl;
+    std::cout << "Derived2!!!" << std::endl;
 
 }
