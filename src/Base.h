@@ -13,6 +13,11 @@ using namespace std;
 
 class Base {
 
+public:
+    virtual ~Base();
+
+    Base();
+
     virtual void do_semothing();
 
 };

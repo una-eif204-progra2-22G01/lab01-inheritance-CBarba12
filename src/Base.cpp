@@ -9,3 +9,9 @@ void Base::do_semothing() {
 
     cout << "Derived1!!!" << endl;
 }
+
+Base::Base() {}
+
+Base::~Base() {
+
+}
