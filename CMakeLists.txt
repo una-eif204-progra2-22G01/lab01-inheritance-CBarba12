@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(lab01-inheritance)
+project(lab01-inheritance-CBarba12)
 
 set(CMAKE_CXX_STANDARD 14)
 
